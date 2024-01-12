@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+/*Inicio cabecalho*/
+
+.cabecalho-container {
+    margin: auto 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0 0 0;
+}
+
+.left-container {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-container .menu-icon {
+    margin-right: 32px;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-container input {
+    all: unset;
+    width: 348px;
+    height: 40px;
+    flex-shrink: 0;
+    border: 1px solid #CCC;
+    background: #FFF;
+    padding: 0 12px;
+}
+
+::-webkit-input-placeholder {
+    color: #8b8282;
+    font-size: 16px;
+}
+
+.center-container span {
+    width: 57px;
+    height: 40px;
+    flex-shrink: 0;
+    border: 1px solid #CCC;
+    background: #F8F8F8;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.center-container img {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    padding: 8px 16px;
+}
+
+.right-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-container .video-icon:hover {
+        cursor: pointer;
+}
+
+.right-container .bell-icon {
+    margin: 0 24px;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.right-container .avatar-icon {
+    width: 34px;
+    height: 34px;
+    border-radius: 34px;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+/*Fim cabecalho*/
