@@ -12,7 +12,7 @@ body {
 
 /*Inicio cabecalho*/
 
-.cabecalho-container {
+.cabecalho__container {
     margin: auto 24px;
     display: flex;
     justify-content: space-between;
@@ -20,24 +20,24 @@ body {
     padding: 8px 0 0 0;
 }
 
-.left-container {
+.left__container {
     width: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.left-container .menu-icon {
+.left__container .menu__icon {
     margin-right: 32px;
 }
 
-.center-container {
+.center__container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.center-container input {
+.center__container input {
     all: unset;
     width: 348px;
     height: 40px;
@@ -52,7 +52,7 @@ body {
     font-size: 16px;
 }
 
-.center-container span {
+.center__container span {
     width: 57px;
     height: 40px;
     flex-shrink: 0;
@@ -64,7 +64,7 @@ body {
     }
 }
 
-.center-container img {
+.center__container img {
     width: 24px;
     height: 24px;
     display: flex;
@@ -74,17 +74,17 @@ body {
     padding: 8px 16px;
 }
 
-.right-container {
+.right__container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.right-container .video-icon:hover {
+.right__container .video__icon:hover {
         cursor: pointer;
 }
 
-.right-container .bell-icon {
+.right__container .bell__icon {
     margin: 0 24px;
 
     &:hover {
@@ -92,7 +92,7 @@ body {
     }
 }
 
-.right-container .avatar-icon {
+.right__container .avatar__icon {
     width: 34px;
     height: 34px;
     border-radius: 34px;
@@ -112,7 +112,7 @@ body {
     justify-content: center;
 }
 
-.container-central{
+.container__central{
     width: 1100px;
     height: 700px;
     display: flex;
@@ -121,18 +121,18 @@ body {
     flex-direction: column;
 }
 
-.container-central .video-principal {
+.container__central .video__principal {
     width: 800px;
     height: 437px;
     background-color: #8b8282;
     margin-top: 28px;
 }
 
-.like-disl-container, .interact-user {
+.like__disl__container, .interact__user {
     display: flex;
 }
 
-.side-section-content {
+.side__section__content {
     display: flex;
     gap: 20px;
 }
