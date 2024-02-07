@@ -121,6 +121,12 @@ body {
     flex-direction: column;
 }
 
+.video__principal {
+    background-image: url('../img/diome_thumb.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .container__central .video__principal {
     width: 800px;
     height: 437px;
